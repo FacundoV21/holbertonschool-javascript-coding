@@ -6,7 +6,4 @@ process.stdin.on('readable', () => {
     process.stdout.write(`Your name is: ${name}`);
   }
 });
-
-process.on('end', () => {
-  console.log('This important software is now closing');
-});
+console.log('This important software is now closing');
